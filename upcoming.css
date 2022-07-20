@@ -1,0 +1,293 @@
+/* * {
+    border: 2px solid red;
+} */
+
+main {
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: 10px auto 20px auto;
+    font-family: 'popins', sans-serif;
+}
+
+/* Banner section */
+.container-banner {
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.width {
+    width: 50%;
+}
+
+h1 {
+    margin: 5px 0 0 0;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 50px;
+
+}
+
+hr {
+    width: 80%;
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+}
+
+footer .container-footer h2 {
+    margin: 0;
+
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.container-banner .header p {
+    margin: 20px 0 0 0;
+    color: aliceblue;
+
+}
+
+.header {
+    padding: 30px 40px;
+}
+
+.header button {
+    margin-top: 20px;
+    width: 25%;
+    height: 12%;
+    background-color: #DD0000;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+/* second section */
+.blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+    height: 200px;
+    background-color: #161616;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.blog a {
+    text-decoration: none;
+    color: #161616;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.blog #match a {
+    color: white;
+}
+
+.blog button {
+    border-radius: 10px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.blog .blog-button:hover {
+    background-color: #DD0000;
+
+}
+
+#match {
+    color: white;
+    background-color: #DD0000;
+}
+
+
+#group {
+    color: #161616;
+
+}
+
+.blog .blog-button {
+    background-color: white;
+}
+
+.media {
+    margin: 5px;
+    border: 2px solid #bee4be;
+    border-radius: 10px;
+}
+
+.media p {
+    margin: 8px;
+
+}
+
+.media img {
+    padding: 0;
+    width: 100%;
+}
+
+#media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+
+}
+
+#media-query {
+    display: flex;
+}
+
+
+/* vs section */
+/* .flex {
+    display: flex;
+    /* width: 30%; */
+
+.media .problem {
+    display: flex;
+}
+
+.media .problem img {
+    width: 35%;
+}
+
+/* footer */
+footer .container-footer h2 {
+    margin: 0;
+
+}
+
+footer .container-footer h2 {
+    margin: 0;
+
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.container-footer {
+    display: flex;
+    padding: 0 30px;
+}
+
+.container-footer div {
+    margin-right: 40px;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social div {
+    margin-left: 40px;
+    background-color: #bb2222;
+
+}
+
+footer {
+    background-color: #161616;
+
+}
+
+/* Make Responsive for tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #media {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #media-query {
+        display: flex;
+        flex-direction: column;
+
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+
+    .blog {
+        display: flex;
+        border-radius: 10px;
+        width: auto;
+        height: auto;
+        justify-content: space-around;
+        background-color: #FFFFFF;
+    }
+
+    .menu-width {
+        width: 25%;
+        height: 40px;
+    }
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 575px) {
+    .container-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #media {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        background-color: #FFFFFF;
+        margin: 30px;
+    }
+
+    #media-query {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #match {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #group {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .blog-button {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
