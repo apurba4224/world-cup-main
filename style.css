@@ -9,7 +9,16 @@
      font-family: 'popins', sans-serif;
  }
 
- main
+ .hidden-button button {
+     background-color: #DD0000;
+     border: none;
+     width: 60px;
+     height: 30px;
+     border-radius: 5px;
+     margin-left: 40%;
+     margin-top: 15px;
+     visibility: hidden;
+ }
 
  /* Banner section */
  .container-banner {
@@ -244,6 +253,10 @@
 
      .transfer-icon {
          width: 70%;
+     }
+
+     .hidden-button button {
+         visibility: visible;
      }
 
  }
