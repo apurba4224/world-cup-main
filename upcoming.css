@@ -9,6 +9,8 @@ main {
     font-family: 'popins', sans-serif;
 }
 
+
+
 /* Banner section */
 .container-banner {
     display: flex;
@@ -46,16 +48,6 @@ hr {
     padding: 0;
     margin-bottom: 30px;
     background-color: #FFFFFF;
-}
-
-footer .container-footer h2 {
-    margin: 0;
-
-}
-
-footer p {
-    text-align: center;
-    margin: 0;
 }
 
 .container-banner .header p {
@@ -159,9 +151,6 @@ footer p {
 
 
 /* vs section */
-/* .flex {
-    display: flex;
-    /* width: 30%; */
 
 .media .problem {
     display: flex;
@@ -170,6 +159,8 @@ footer p {
 .media .problem img {
     width: 35%;
 }
+
+
 
 /* footer */
 footer .container-footer h2 {
